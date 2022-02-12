@@ -3,7 +3,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #756943;
-  background-color: #7c3a7c;
+  background-color: white;
   font-size: 21px;
 }
 
@@ -429,6 +429,7 @@ body {
     width: 479px;
     margin: 0 auto;
     width: 100%;
+    padding: 0;
   }
   .header {
     height: 695px;
