@@ -428,7 +428,8 @@ body {
   .container {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    width: 100%;
+    padding: 0;
   }
   .header {
     height: 695px;
@@ -481,7 +482,7 @@ body {
     background-color: #E7C452;
   }
   .header__information {
-    width: 400px;
+    width: 100%;
   }
   .header__information__title {
     font-family: 'Style Script', cursive;
@@ -549,11 +550,11 @@ body {
     margin: 0 auto;
     padding: 53px 0 67px 0;
     display: block;
-    width: 400px;
+    width: 365px;
   }
   .gallery__frame__title {
     top: 70px;
-    left: 155px;
+    left: 140px;
     position: absolute;
     font-family: 'Style Script', cursive;
     font-size: 45px;
@@ -564,7 +565,7 @@ body {
     font-size: 18px;
     position: absolute;
     top: 115px;
-    left: 110px;
+    left: 75px;
   }
   .gallery__navigation {
     -webkit-box-pack: center;

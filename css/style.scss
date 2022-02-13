@@ -419,7 +419,8 @@ body {
     .container {
         max-width: 100%;
         margin: 0 auto;
-        padding: 0 15px;
+        width: 100%;
+        padding: 0;
 
     }
 
@@ -483,7 +484,8 @@ body {
         }
 
         &__information {
-            width: 400px;
+            // width: 400px;
+            width: 100%;
 
             &__title {
                 font-family: 'Style Script', cursive;
@@ -568,14 +570,14 @@ body {
                 margin: 0 auto;
                 padding: 53px 0 67px 0;
                 display: block;
-                width: 400px;
+                width: 365px;
 
             }
 
 
             &__title {
                 top: 70px;
-                left: 155px;
+                left: 140px;
                 position: absolute;
                 font-family: 'Style Script', cursive;
                 font-size: 45px;
@@ -587,7 +589,7 @@ body {
                 font-size: 18px;
                 position: absolute;
                 top: 115px;
-                left: 110px;
+                left: 75px;
             }
         }
 
